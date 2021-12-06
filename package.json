@@ -1,6 +1,6 @@
 {
   "name": "linked-modules",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist",
   "bin": "./bin/linked-modules.js",
@@ -10,9 +10,6 @@
     "dev": "nodemon",
     "test": "ava"
   },
-  "keywords": [],
-  "author": "Artem Kudla <kudla.artem@gmail.com>",
-  "license": "MIT",
   "keywords": [
     "link",
     "symlink",
@@ -21,6 +18,8 @@
     "ts",
     "typescript"
   ],
+  "author": "Artem Kudla <kudla.artem@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kudla/node-linked-modules.git"
