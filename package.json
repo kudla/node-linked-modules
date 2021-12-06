@@ -13,6 +13,22 @@
   "keywords": [],
   "author": "Artem Kudla <kudla.artem@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "link",
+    "symlink",
+    "realpath",
+    "tool",
+    "ts",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kudla/node-linked-modules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kudla/node-linked-modules/issues"
+  },
+  "homepage": "https://github.com/kudla/node-linked-modules#readme",
   "devDependencies": {
     "@types/node": "^16.11.11",
     "ava": "^3.15.0",
