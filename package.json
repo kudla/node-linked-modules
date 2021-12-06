@@ -1,34 +1,34 @@
 {
- "name": "linked-modules",
- "version": "1.0.3",
- "description": "",
- "main": "dist",
- "bin": "./bin/linked-modules.js",
- "scripts": {
-  "prebuild": "npm t",
-  "build": "rm -rf dist && tsc -d",
-  "dev": "nodemon",
-  "test": "ava"
- },
- "keywords": [],
- "author": "Artem Kudla <kudla.artem@gmail.com>",
- "license": "MIT",
- "devDependencies": {
-  "@types/node": "^16.11.11",
-  "ava": "^3.15.0",
-  "nodemon": "^2.0.15",
-  "ts-node": "^10.4.0",
-  "typescript": "^4.5.2"
- },
- "ava": {
-  "extensions": {
-   "ts": "module"
+  "name": "linked-modules",
+  "version": "1.0.3",
+  "description": "",
+  "main": "dist",
+  "bin": "./bin/linked-modules.js",
+  "scripts": {
+    "prebuild": "npm t",
+    "build": "rm -rf dist && tsc -d",
+    "dev": "nodemon",
+    "test": "ava"
   },
-  "nonSemVerExperiments": {
-   "configurableModuleFormat": true
+  "keywords": [],
+  "author": "Artem Kudla <kudla.artem@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "ava": "^3.15.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
   },
-  "nodeArguments": [
-   "--loader=ts-node/esm"
-  ]
- }
+  "ava": {
+    "extensions": {
+      "ts": "module"
+    },
+    "nonSemVerExperiments": {
+      "configurableModuleFormat": true
+    },
+    "nodeArguments": [
+      "--loader=ts-node/esm"
+    ]
+  }
 }
