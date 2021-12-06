@@ -5,6 +5,7 @@
  "main": "dist",
  "bin": "./bin/linked-modules.js",
  "scripts": {
+  "prebuild": "npm t",
   "build": "rm -rf dist && tsc -d",
   "dev": "nodemon",
   "test": "ava"
