@@ -4,10 +4,14 @@ Tended to help resolve real locations for linked npm module dependencies
 ### Requirements
 Oriented on usage and tested within Linux like os environments
 
+### Installation
+```zsh
+npm i linked-modules
+```
+
 ### Usage
 #### Prerequisites
 ```zsh
-npm i -D linked-modules
 npm link ../some-local-module-a ../some-local-module-a
 ```
 ### package.json script examples
